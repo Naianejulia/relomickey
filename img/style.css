@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #fffafa;
+    background-image: url(./mickey.gif);
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Amatic SC', cursive;
+    color: whitesmoke;
+}
+
+.hours {
+    background: linear-gradient(#fffafa, rgb(8, 8, 8));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    border: 3px solid (rgb(8, 8, 8));
+    animation: piscar 1s infinite alternate
+}
+
+p {
+    font-size: 6rem;
+    width: 120px;
+    text-shadow: black -1px 1px 8px;
+    font-style: italic;
+}
+
+span{
+    font-size: 6rem;
+    font-style: italic;
+    text-shadow: black -1px 1px 5px;
+}
+
+@keyframes piscar {
+   from{
+    box-shadow: rgb(8, 8, 8) 0px 0px 25px 10px;
+   }
+   to{
+    box-shadow: rgb(8, 8, 8) 0px 0px 15px;
+   }
+}
