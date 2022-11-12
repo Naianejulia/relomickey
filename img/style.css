@@ -6,8 +6,8 @@
 }
 
 main {
-    background-color: #fffafa;
-    background-image: url(./mickey.gif);
+    background-color: #e6b62e;
+    background-image: url(./mickey.png);
     background-position: top;
     background-repeat: no-repeat;
     width: 100vw;
@@ -20,7 +20,7 @@ main {
 }
 
 .hours {
-    background: linear-gradient(#fffafa, rgb(8, 8, 8));
+    background: linear-gradient(#242527, #e4252c);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -48,9 +48,9 @@ span{
 
 @keyframes piscar {
    from{
-    box-shadow: rgb(8, 8, 8) 0px 0px 25px 10px;
+    box-shadow: #e4252c 0px 0px 25px 10px;
    }
    to{
-    box-shadow: rgb(8, 8, 8) 0px 0px 15px;
+    box-shadow: #e4252c 0px 0px 15px;
    }
 }
